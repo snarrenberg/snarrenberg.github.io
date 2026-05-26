@@ -41,10 +41,15 @@ hr {
   margin: 8px 0;
 }
 
+.header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-bottom: 0;
+}
+
 .logo {
   max-width: 30%;
-  display: block;
-  margin: 0 0 1em auto;
 }
 
 p {

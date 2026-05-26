@@ -1,41 +1,55 @@
+@font-face {
+  font-family: DoulosSILW;
+  src: url(DoulosSIL-Regular.woff2);
+}
+
 body {
-  font-family: Georgia, serif;
+  font-size: 16px;
+  font-family: DoulosSILW, Arial, Helvetica, sans-serif;
+  margin-top: 5px;
+  background-color: #e5e7e5;
+}
+
+.container {
   max-width: 720px;
-  margin: 60px auto;
-  padding: 0 24px;
-  color: #222;
+  margin: 0 auto;
+  padding: 24px;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 20px;
   line-height: 1.7;
 }
 
-h1 {
-  font-size: 2rem;
-  margin-bottom: 0.25em;
+#title {
+  font-family: DoulosSILW, "Times New Roman", Times, serif;
+  font-size: 28px;
+  padding-left: 20px;
+}
+
+#subtitle {
+  font-family: DoulosSILW, "Times New Roman", Times, serif;
+  font-size: 20px;
+  padding-left: 20px;
+  font-style: italic;
 }
 
 p {
   margin: 1em 0;
+  padding: 0 20px;
 }
 
 a {
-  color: #2a5db0;
+  color: #0000ff;
 }
 
 a:hover {
   text-decoration: none;
 }
 
-img.logo {
-  max-width: 60%;
-  display: block;
-  margin: 0 auto 1em;
-}
-
-p.byline {
-  text-align: right;
-  margin-top: 0;
-  font-style: italic;
-}
-
-p.launch {
-  text-align: center;
+.section_header {
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  padding-left: 20px;
 }

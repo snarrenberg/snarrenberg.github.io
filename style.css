@@ -41,6 +41,10 @@ hr {
   margin: 8px 0;
 }
 
+.layout > hr {
+  margin-left: calc(160px + 24px);
+}
+
 .staff {
   height: 25px;
   background: repeating-linear-gradient(

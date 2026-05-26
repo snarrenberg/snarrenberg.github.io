@@ -83,15 +83,7 @@ a:hover {
 }
 
 .sidebar ul li {
-  border-bottom: 1px solid #ccc;
-}
-
-.sidebar ul li:first-child {
-  border-top: 1px solid #ccc;
-}
-
-.sidebar ul li:last-child {
-  border-bottom: none;
+  margin-bottom: 4px;
 }
 
 .sidebar ul li a {

@@ -60,3 +60,37 @@ a:hover {
   font-size: 20px;
   padding-left: 20px;
 }
+
+.layout {
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+}
+
+.sidebar {
+  flex: 0 0 160px;
+  padding-top: 4px;
+}
+
+.sidebar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.sidebar ul li a:hover {
+  text-decoration: underline;
+}
+
+.content {
+  flex: 1;
+}

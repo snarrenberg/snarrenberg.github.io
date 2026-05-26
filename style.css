@@ -106,3 +106,7 @@ a:hover {
 .content {
   flex: 1;
 }
+
+.launch {
+  text-align: center;
+}

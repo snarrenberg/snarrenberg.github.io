@@ -77,50 +77,31 @@ a:hover {
   text-decoration: none;
 }
 
-.section_header {
-  margin-bottom: 10px;
-  font-weight: bold;
-  font-size: 20px;
-  padding-left: 20px;
+.layout {
+  display: flex;
+  flex-direction: column;
 }
 
-.layout {
+.section {
   display: flex;
   gap: 24px;
   align-items: flex-start;
 }
 
-.sidebar {
+.section-label {
   flex: 0 0 160px;
-  padding: 0;
-  margin-top: 1em;
+  padding-top: 1em;
 }
 
-.sidebar ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.sidebar ul li {
-  margin-bottom: 4px;
-}
-
-.sidebar ul li a {
-  text-decoration: none;
+.section-head {
   font-size: 15px;
   font-weight: bold;
-  display: block;
-  padding: 4px 16px;
   color: #9e3537;
+  margin: 0;
+  padding: 0 16px;
 }
 
-.sidebar ul li a:hover {
-  color: #5f9e60;
-  text-decoration: none;
-}
-
-.content {
+.section-content {
   flex: 1;
 }
 

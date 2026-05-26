@@ -29,10 +29,10 @@ body {
 
 #subtitle {
   font-family: DoulosSILW, "Times New Roman", Times, serif;
-  font-size: 14px;
-  padding-right: 20px;
+  font-size: 18px;
+  padding-left: 20px;
   font-style: normal;
-  text-align: right;
+  text-align: left;
 }
 
 hr {

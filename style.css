@@ -121,7 +121,8 @@ a:hover {
 
 .contributor {
   margin: 0;
-  padding: 0 20px 0 40px;
+  padding: 0 20px 0 60px;
+  text-indent: -20px;
   font-size: 14px;
 }
 

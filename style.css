@@ -69,7 +69,10 @@ a:hover {
 
 .sidebar {
   flex: 0 0 160px;
-  padding-top: 4px;
+  padding: 12px 0;
+  border-right: 2px solid #ccc;
+  background-color: #f0f0f0;
+  border-radius: 4px;
 }
 
 .sidebar ul {
@@ -85,10 +88,13 @@ a:hover {
 .sidebar ul li a {
   text-decoration: none;
   font-size: 15px;
+  display: block;
+  padding: 4px 16px;
 }
 
 .sidebar ul li a:hover {
-  text-decoration: underline;
+  background-color: #dde0dd;
+  text-decoration: none;
 }
 
 .content {

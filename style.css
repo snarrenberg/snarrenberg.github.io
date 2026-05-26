@@ -125,6 +125,10 @@ a:hover {
   font-size: 14px;
 }
 
+.small {
+  font-size: 14px;
+}
+
 .phase {
   font-weight: normal;
   font-style: normal;

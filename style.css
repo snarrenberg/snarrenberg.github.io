@@ -69,7 +69,8 @@ a:hover {
 
 .sidebar {
   flex: 0 0 160px;
-  padding: 12px 0;
+  padding: 0;
+  margin-top: 1em;
   border-right: 2px solid #ccc;
   background-color: #f0f0f0;
   border-radius: 4px;

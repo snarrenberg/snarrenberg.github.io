@@ -114,7 +114,7 @@ a:hover {
 }
 
 .role {
-  font-weight: bold;
+  font-weight: normal;
   margin-bottom: 0;
   padding: 0 20px;
 }
@@ -122,10 +122,11 @@ a:hover {
 .contributor {
   margin: 0;
   padding: 0 20px 0 40px;
+  font-size: 14px;
 }
 
 .phase {
-  font-weight: bold;
+  font-weight: normal;
   font-style: italic;
   margin-top: 0.75em;
   margin-bottom: 0;

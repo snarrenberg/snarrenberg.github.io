@@ -119,6 +119,11 @@ a:hover {
   padding: 0 20px;
 }
 
+.contributor {
+  margin: 0;
+  padding: 0 20px 0 40px;
+}
+
 .phase {
   font-weight: bold;
   font-style: italic;
